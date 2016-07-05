@@ -1,0 +1,106 @@
+body {
+    width: 100%;
+}
+
+button, input, select, textarea {
+    font: inherit;
+    margin: 0;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.submit {
+    background-color: forestgreen;
+    color: white;
+}
+
+fieldset {
+    width: 22%;
+}
+
+.wrapper{
+
+    align: right;
+}
+
+nav {
+    margin-left: -1%;
+    padding: 100px;
+}
+
+.register {
+    color: #4CAF50;
+}
+
+.navbar {
+    width: 100%;
+    padding: 2px 2px;
+    background-color: brown;
+    color: white;
+    margin-top: -1%;
+    /*margin-left: 0%;*/
+    /*margin-right: 16%;*/
+    display-inline: block;
+    position: relative;
+    offset-left: 0;
+}
+
+a {
+    color: white;
+    font-family: Arial;
+
+}
+
+a:hover {
+    color: cadetblue;
+    border-color: white;
+}
+
+ul {
+    /*margin: 0;*/
+
+    top: 0;
+
+}
+
+li {
+    display: inline;
+    font-size: large;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+    border-height: 100%;
+}
+
+li:last-child {
+
+    border-right: none;
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.margin-top {
+    margin: 20px auto;
+    margin-top: 40px;
+
+}
+
+.message-top {
+    margin-top: 30px;
+}
